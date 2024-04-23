@@ -5,7 +5,7 @@ export default function SimpleFooter() {
   return (
     <div className='whole_footer'>
         <div className='footer'>
-            <span>| All rights are reserved | &copy;{new Date().getFullYear()},Chandravamsi.com |</span>
+            <span>| All rights are reserved | &copy;{new Date().getFullYear()},Chandravamsi.netlify.app |</span>
         </div>
     </div>
 
