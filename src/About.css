@@ -1,0 +1,218 @@
+
+.whole_about{
+    background-color: rgba(0, 0, 0, 0.861);
+
+}
+.box {
+    
+    width: 100%;
+    max-width: 100%;
+    margin-top: 44px;
+    color: whitesmoke;
+
+}
+
+.box h2 {
+    
+    padding-top: 20px;
+    margin-left: 14px;
+    font-weight: 900;
+}
+
+.about {
+    width: 90%;
+    max-width: 90%;
+    min-height: 65vh;
+    margin: 30px;
+    margin-left: 57px;
+    margin-bottom: 80px;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px solid black;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(224, 89, 89, 0.75);
+    overflow: hidden;
+    
+}
+.s1 h3,.tab1 h4, .tab3 h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.A_navlinks {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    font-weight: 790;
+    font-size: medium;
+}
+.A_navlinks_b {
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    font-weight: 790;
+    font-size: large;
+    transition: opacity 10s ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skill{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.preload_img{
+    display: none;
+}
+.s {
+    background-color: rgba(39, 6, 6, 0.395);
+    width: 38%;
+    height: 10vh;
+    max-width: 50%;
+    margin: 20px;
+    border: 1px solid rgba(74, 49, 49, 0.534);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    transition: box-shadow 0.4s ease-in-out;
+}
+  
+.s.highlight {
+    box-shadow: 0px 0px 10px 0px rgba(224, 89, 89, 0.75);
+    color: red;
+}
+  
+.s1 {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+  
+.s:hover {
+    color: red;
+}
+  
+.s img {
+    width: 20%; /* Adjusted image size */
+    max-width: 100px; /* Added max-width for responsive scaling */
+    object-fit: contain;
+}
+  
+
+.A_navlinks_b.active {
+    
+    border-bottom: 3px solid white;
+
+    
+}
+
+.A_navlinks_b:hover {
+    color: whitesmoke;
+
+}
+.tab1 {
+    max-width: 950px; /* adjust to your desired width */
+    margin: 0 auto; /* center the container horizontally */
+    padding: 20px; /* add some padding for spacing */
+    
+}
+  
+.tab1 h4 {
+    font-size: 16px; /* adjust font size as needed */
+    line-height: 1.8; /* adjust line height for readability */
+    text-align: justify; /* align text */
+}
+
+.clg{
+    margin: 30px 50px;
+    
+}
+.clg h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: larger;
+    margin:9px;
+    
+}
+.clg h4{
+ margin: 13px 30px;
+ 
+}
+.name_year{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+
+
+@media (max-width: 817px) {
+    .about {
+        width: 95%;
+        max-width: 95%;
+        margin: 30px 10px;        
+        
+    }
+    .box{
+        margin-top: 76px;
+    }
+    .clg{
+        margin: 20px 10px;
+    }
+
+
+}
+@media(max-width:550px){
+    .box{
+        margin-top: 44px;
+    }
+
+}
+
+@media(max-width:400px){
+    .about{
+        margin-top:40px;
+        margin-bottom: 80px;
+    }
+    .box h2{
+        font-size: 21px;
+    }
+    .A_navlinks_b{
+        font-size: 16px;
+    }
+    .tab1 h4{
+        font-size: 13px;
+        line-height: 1.8;
+    }
+    .s{ 
+        
+        width: 44%;
+        margin: 10px;
+        margin-top: 40px;
+    }
+    .s1 h3{
+        font-size: 15px;
+    }
+    .clg{
+        margin: 20px 4px;
+    }
+    .name_year h3{
+        font-size: 15px;
+    }
+    .clg h4{
+        font-size: 13px;
+
+    }
+    
+}

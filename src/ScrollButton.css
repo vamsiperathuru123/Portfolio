@@ -1,0 +1,28 @@
+.scroll_button{
+    background-color: black;
+    color: white;
+    width: 40%;
+    border: 2px solid rgb(235, 66, 66);
+    border-radius: 5px;
+    margin: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+}
+.scroll_button:hover{
+    cursor: pointer;
+    color: red;
+
+}
+@media(max-width:1036px){
+    .scroll_button{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .scroll_button{
+        display: none;
+    }
+
+}

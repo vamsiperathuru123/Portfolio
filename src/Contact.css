@@ -1,0 +1,80 @@
+.whole_contact{
+    background-color: rgba(0, 0, 0, 0.861);
+}
+.contact{
+    
+    width: 90%;
+    max-width: 90%;
+  
+    margin: 30px;
+    margin-left: 57px;
+    margin-bottom: 80px;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px solid black;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(224, 89, 89, 0.75);
+    overflow: hidden;
+    
+}
+.Address h3{
+  margin: 10px 50px;
+  color: red;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.socialmedia h3{
+  margin: 20px 50px;
+  color: red;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Address h4{
+  margin: 7px 70px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Button__links_c{
+    width: 30%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 50px;
+    
+    
+
+}
+@media (max-width: 660px) {
+    .contact {
+        width: 95%;
+        max-width: 95%;
+        margin: 30px 10px;  
+        margin-bottom: 80px;      
+    }
+
+}
+
+@media(max-width :400px){
+  .contact{
+    min-height: 63vh;
+    margin-bottom: 120px;
+  }
+  .Address h3{
+    font-size: 18px;
+    margin: 30px 30px;
+  }
+  .socialmedia h3{
+    font-size: 18px;
+    margin: 40px 30px;
+  }
+  .Address h4{
+    font-size: 15px;
+    margin: 7px 50px;
+  }
+  .Button__links_c{
+    margin: 20px 50px;
+  }
+
+}

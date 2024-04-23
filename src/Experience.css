@@ -1,0 +1,154 @@
+.exp{
+    background-color:rgba(0, 0, 0, 0.861);
+}
+
+
+.Ebox {
+    
+    width: 100%;
+    max-width: 100%;
+    margin-top: 44px;
+    color: whitesmoke;
+
+}
+
+.Ebox h2 {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-weight: 900;
+}
+.Es_n_h{
+    width: 90%;
+    max-width: 90%;
+    margin: 30px 60px;
+    margin-top: 45px;
+    background-color:black;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    border-radius:10px;
+    transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+    
+}
+.Es_n_h.highlight{
+    
+   box-shadow: 0px 0px 10px 0px rgba(224, 89, 89, 0.75);
+   color: red;
+   transform: translateY(-10px);
+
+      
+}
+.Es1_n_h{
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: red;
+    
+}
+.Es1_n_h h2,h3,h4,button{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.Es1_n_h h2{
+    margin-left: 2px;
+    padding-top: 0px;
+}
+.Es1_n_h h3{
+    margin-top: 5px;
+}
+.Es1_n_h h4{
+    color: whitesmoke;
+    margin: 15px 40px;
+}
+
+.Es1_n_h button{
+    width: 40%;
+    height: 25px;
+    margin-top: 120px;
+    align-self:center;
+    background-color: white;
+    border: 2px whitesmoke;
+    border-radius: 5px;
+}
+.Es_n_h :hover{
+    
+    color: red;
+}
+
+
+
+
+
+
+@media(max-width : 1150px){
+    .Es_n_h{
+        width: 90%;
+        max-width: 90%;
+        overflow: hidden;
+        background-color:black;
+        color: white;
+        margin: 20px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        border: 1px solid black;
+        border-radius:10px;
+        transition: box-shadow 0.4s;
+        transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+        
+        
+    }
+    .Es1_n_h button{
+        width: 50%;
+        height: 25px;
+        margin-top: 0px;
+        align-self:center;
+        background-color: white;
+        border: 2px whitesmoke;
+        border-radius: 5px;
+    }
+
+}
+
+
+
+@media (max-width: 817px) {
+    .Ebox h2{
+        margin-top: 76px;
+    }
+    .Es1_n_h h2{
+        margin-top: 0px;
+    }
+
+
+}
+@media(max-width:550px){
+    .Ebox h2{
+        margin-top: 44px;
+    }
+    .Es1_n_h h2{
+        margin-top: 0px;
+    }
+}
+@media(max-width:400px){
+    .Es_n_h{
+        margin-top:70px;
+        margin-bottom: 130px;
+        
+    }
+    .Ebox h2{
+        font-size: 21px;
+    }
+    .Es1_n_h h4{
+        margin: 15px 15px;
+        font-size: 13px;
+    }
+    .Es1_n_h h2{
+        font-size: 17px;
+
+    }
+    .Es1_n_h h3{
+        font-size: 15px;
+    }
+}

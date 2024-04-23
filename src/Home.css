@@ -1,0 +1,307 @@
+.home{
+    background-color:rgba(0, 0, 0, 0.861);
+}
+.h1{
+    color:red;
+}
+.preload_img{
+    display: none;
+}
+
+.textbox1{
+    
+    width: 100%;
+    margin-top: 44px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.text_home{
+    width: 40%;
+    max-width: 40%;
+    
+
+}
+.text_home h1{
+    color:white;
+    font-weight: 700;font-family: 'Times New Roman', Times, serif;
+    margin-top: 250px;
+    margin-left: 20px;   
+    line-height: 1.5;
+}
+
+
+
+.s_n_h{
+    background-color:black;
+    width: 650px;
+    max-width: 100%;
+    overflow: hidden;
+    color: white;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius:10px;
+    transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+    
+}
+.s_n_h.highlight{
+    
+   box-shadow: 0px 0px 10px 0px rgba(224, 89, 89, 0.75);
+   color: red;
+   transform: translateY(-10px);
+
+      
+}
+.s1_n_h{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: red;
+    
+}
+.s1_n_h h3,h4,button{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.s1_n_h h4{
+    color: whitesmoke;
+    text-align: justify;
+    line-height: 1.8;
+}
+.s1_n_h a{
+    width: 40%;
+    align-self: center;
+}
+.s1_n_h button{
+    width: 100%;
+    height: 25px;
+    margin-top:60px;
+    align-self:center;
+    background-color: white;
+    border: 2px whitesmoke;
+    border-radius: 5px;
+    
+}
+.s1_n_h button:hover{
+    background-color: red;
+    color: black;
+}
+.s_n_h :hover{
+
+    .LinkedIn{
+        color:#0077b5 ;
+    }
+    .Facebook{
+        color: #4968ad;
+    }
+    .X{
+        color: #FFFFFF;
+    }
+    .Instagram{
+        color:#FB3958 ;
+    }
+    color: red;
+}
+
+.Button__links{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: auto;
+    
+
+}
+
+.LinkedIn{
+    color:#0077b5;
+    margin: 5px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.Facebook{
+    color: #4968ad;
+    margin: 5px;
+    transition: transform 0.4s ease-in-out;
+}
+.X{
+    color: #FFFFFF;
+    margin: 5px;
+    transition: transform 0.4s ease-in-out;
+}
+.Instagram{
+    color:#FB3958 ;
+    margin: 5px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.LinkedIn :hover{
+    transform: translateY(-5px);
+    color:#0077b5;
+}
+.Facebook :hover{
+    transform: translateY(-5px);
+    color: #4968ad;
+
+}
+.X :hover{
+    transform: translateY(-5px);
+    color:#FFFFFF;
+}
+.Instagram :hover{
+    transform: translateY(-5px);
+    color:#FB3958 ;
+}
+
+
+
+
+
+
+@media(max-width : 1170px){
+    .textbox1{
+        flex-direction: column;
+        
+    }
+    .text_home{
+        height: 20vh;
+        max-height: 20vh;
+        width: 90%;
+        max-width: 90%;
+    }
+    .text_home h1{
+        color:white;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-left: 20px;
+           
+    }
+    .s_n_h{
+        width: 90%;
+        max-width: 90%;
+        overflow: hidden;
+        background-color:black;
+        color: white;
+        margin: 20px;
+        margin-top: 22px;
+        border: 1px solid black;
+        border-radius:10px;
+        transition: box-shadow 0.4s;
+        transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+        
+        
+    }
+    .s1_n_h a{
+        width: 50%;
+        align-self: center;
+    }
+    .s1_n_h button{
+        width: 100%;
+        height: 25px;
+        margin-top: 10px;
+        align-self:center;
+        background-color: white;
+        border: 2px whitesmoke;
+        border-radius: 5px;
+    }
+
+}
+@media(max-width:819px){
+    .text_home{
+        margin-top: 20px;
+        height: 21vh;
+        max-height: 21vh;
+    }
+    .s_n_h{
+        margin-top: 15px;
+    }
+}
+
+@media(max-width :550px){
+    .text_home{
+        margin-top: 0px;
+    }
+}
+
+
+
+
+@media(max-width:400px){
+    .s_n_h{
+        margin-top: 0px;
+    }
+    .s1_n_h{
+        gap: 10px;
+    }
+    .s1_n_h h3{
+        font-size: 17px;
+        margin: 3px;
+    }
+    .s1_n_h h4{
+        font-size: 13px;
+        margin: 7px;
+    }
+    .textbox1{
+        margin-bottom: 65px;
+    }
+
+    .text_home{
+        height: 15vh;
+        max-height: 15vh;
+        width: 95%;
+        max-width: 95%;
+    }
+    .text_home h1{
+        font-size: x-large;
+    }
+    .Button__links{
+      width: 90%;
+      max-width: 90%;
+      align-self: center;
+      margin-top:10px;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+    }
+    .LinkedIn{
+        color: #0077b5;
+        margin: 10px;
+        
+    }
+    
+    .Facebook{
+        color: #4968ad;
+        margin: 10px;
+        
+    }
+    .X{
+        color:#FFFFFF;
+        margin: 10px;
+        
+    }
+    .Instagram{
+        color:#FB3958 ;
+        margin: 10px;
+        
+    }
+    
+
+}
+
+
+
+
+@media(max-height:350px){
+    .text_home h1{
+        margin-top: 10px;
+        transition: margin-top 0.5s ease;
+    }
+
+    
+}
+
+

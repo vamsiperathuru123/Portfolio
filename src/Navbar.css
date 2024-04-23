@@ -1,0 +1,161 @@
+.nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    background-color: black;
+    top: 0;
+    color: white;
+    position: fixed;
+    width: 100%; /* Span the full width of the viewport */
+    z-index: 100; /* Adjust as needed to keep the navbar above other content */ 
+
+}
+
+.portfolio{
+    color:white;
+    width: 25%;
+    
+}
+.portfolio h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.link{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav_links {
+    margin-top:4.5px ;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 60px;
+    list-style: none;
+}
+.nav_links a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.nav_links a:hover{
+    color:red;
+
+  
+}
+
+.nav_links hr{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 3px;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color:#ff4141;
+
+}
+
+/*responsive navbar*/
+.navbar_toggle{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+
+}
+.navbar_toggle span{
+    width: 100%;
+    height: 4px;
+    background: white;
+    transition: all 0.3s ease-in-out;
+
+}
+.navbar_toggle.close span:nth-child(1) {
+    transform: rotate(45deg) translate(4px, 4px);
+}
+
+.navbar_toggle.close span:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar_toggle.close span:nth-child(3) {
+    transform: rotate(-44deg) translate(7px, -7px);
+}
+
+
+@media(max-width:660px){
+    .nav_links{
+        gap:40px;
+    }
+}
+
+
+
+@media(max-width: 550px){
+    .nav{
+        display: flex;
+
+        justify-content: space-between;
+    }
+    .nav_links {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 25px; /* Adjust as needed based on your top navbar height */
+        right: 5px;
+        
+        background: black;
+        width: 180px;
+        z-index: 5;
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(224, 89, 89, 0.75);
+      }
+    
+    .nav_links.active {
+        display: flex;
+    }
+    
+    .nav_links a {
+        margin-bottom: 10px;
+    }
+    
+    .navbar_toggle {
+        
+        display: flex;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    
+    .navbar_toggle span {
+        background:white;
+        border-radius: 2px;
+    }
+    .nav_links hr{
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin: 3px;
+        width: 80%;
+        height: 3px;
+        border-radius: 10px;
+        background-color:#ff4141;
+    
+    }
+    .portfolio{
+        margin-left: 30px;
+    }
+
+    
+}
+
+
+

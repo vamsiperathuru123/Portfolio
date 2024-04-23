@@ -1,0 +1,28 @@
+.whole_footer {
+    z-index: 500;
+    background-color: black; /* Adjust the background color as desired */
+    color: white;
+    
+    width: 100%;
+}
+  
+.footer {
+    z-index: 100;
+    padding: 8px 20px;
+    text-align: center;
+}
+.footer span{
+    font-size: 14.3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width:400px){
+  .footer span{
+    font-size: 12px;
+    
+  }
+  .footer{
+    padding: 8px 11px;
+  }
+}
+
+  
