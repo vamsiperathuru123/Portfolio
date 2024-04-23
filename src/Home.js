@@ -17,6 +17,8 @@ import css from "./images/css.png";
 import python from "./images/python.jpeg";
 import Sahara from './images/Sahara.png';
 import Movie from './images/Movie.png';
+import waves from './images/waves.png';
+import Lora from './images/Lora.png';
 
 export default function Home() {
   const [text] = useTypewriter({
@@ -36,6 +38,8 @@ export default function Home() {
         <img src={python} alt='python'/>
         <img src={Sahara} alt='Sahara'/>
         <img src={Movie} alt='Movie'/>
+        <img src={waves} alt='waves'/>
+        <img src={Lora} alt='Lora'/>
         
       </div>
       <div>
