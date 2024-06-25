@@ -6,6 +6,8 @@ import html from "./images/html.png";
 import javascript from "./images/javascript.webp";
 import css from "./images/css.png";
 import python from "./images/python.jpeg";
+import SQL from "./images/SQL.png";
+import DS from "./images/DS.jpg";
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import SimpleFooter from './SimpleFooter';
 
@@ -27,6 +29,8 @@ export default function About() {
         <img src={html} alt='html'/>
         <img src={css} alt='css'/>
         <img src={python} alt='python'/>
+        <img src={SQL} alt='SQL'/>
+        <img src={DS} alt='DS'/>
       </div>
       <div>
         <Navbar />
@@ -95,6 +99,8 @@ const Tab2 = () =>{
   const [isHovered2, setIsHovered2] = useState(false);
   const [isHovered3, setIsHovered3] = useState(false);
   const [isHovered4, setIsHovered4] = useState(false);
+  const [isHovered5, setIsHovered5] = useState(false);
+  const [isHovered6, setIsHovered6] = useState(false);
   return(
     <div>
       <ul className='skill'>
@@ -126,6 +132,20 @@ const Tab2 = () =>{
           <div className='s1'>
             <img src={python} alt='python'/>
             <h3>Python</h3>
+          </div>
+        </li> 
+
+
+        <li className={`s ${isHovered5 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered5(true)} onMouseLeave={() => setIsHovered5(false)}>
+          <div className='s1'>
+            <img src={SQL} alt='SQL'/>
+            <h3>SQL</h3>
+          </div>
+        </li> 
+        <li className={`s ${isHovered6 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered6(true)} onMouseLeave={() => setIsHovered6(false)}>
+          <div className='s1'>
+            <img src={DS} alt='DS'/>
+            <h3>DSA</h3>
           </div>
         </li> 
 

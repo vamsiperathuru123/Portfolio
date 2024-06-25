@@ -80,6 +80,7 @@
     height: 10vh;
     max-width: 50%;
     margin: 20px;
+    margin-top: 10px;
     border: 1px solid rgba(74, 49, 49, 0.534);
     border-radius: 6px;
     display: flex;
