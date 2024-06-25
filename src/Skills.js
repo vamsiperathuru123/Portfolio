@@ -46,7 +46,7 @@ const Tab = () =>{
         <li className={`s_n ${isHovered ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
           <div className='s1_n'>
             <img src={react} alt='react'/>
-            <h3>React js</h3>
+            <h3>React Js</h3>
           </div>
         </li>
         <li className={`s_n ${isHovered1 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered1(true)} onMouseLeave={() => setIsHovered1(false)}>
@@ -71,6 +71,18 @@ const Tab = () =>{
           <div className='s1_n'>
             <img src={python} alt='python'/>
             <h3>Python</h3>
+          </div>
+        </li> 
+        <li className={`s_n ${isHovered4 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered4(true)} onMouseLeave={() => setIsHovered4(false)}>
+          <div className='s1_n'>
+            <img src={python} alt='python'/>
+            <h3>SQL</h3>
+          </div>
+        </li> 
+        <li className={`s_n ${isHovered4 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered4(true)} onMouseLeave={() => setIsHovered4(false)}>
+          <div className='s1_n'>
+            <img src={python} alt='python'/>
+            <h3>DSA</h3>
           </div>
         </li> 
       </ul>
