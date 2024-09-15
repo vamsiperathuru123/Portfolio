@@ -59,6 +59,23 @@
     
     
 }
+.abox {
+    
+    width: 100%;
+    max-width: 100%;
+    margin-top: 44px;
+    color: whitesmoke;
+
+}
+
+.abox h2 {
+    
+    padding-top: 20px;
+    margin-left: 14px;
+    font-weight: 900;
+}
+
+
 
 @media(max-width:660px){
     .skill_n{

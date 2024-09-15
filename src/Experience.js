@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import "./Experience.css";
 import Navbar from './Navbar';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import SimpleFooter from './SimpleFooter';
 
 export default function Experience() {
     const [text]=useTypewriter({
-        words:['Work Experiences'],
+        words:['Work Experience'],
         loop:true,
       });
     const [isHovered, setIsHovered] = useState(false);
@@ -30,9 +29,7 @@ export default function Experience() {
                     <h4>Worked on how API’s, Web Sockets and Service Workers works.</h4>
                   </div>
           </div> 
-          <div>
-            <SimpleFooter/>
-          </div>
+
         </div>
 
 

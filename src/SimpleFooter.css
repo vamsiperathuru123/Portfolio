@@ -11,6 +11,10 @@
     padding: 8px 20px;
     text-align: center;
 }
+.footer:hover{
+  cursor: pointer;
+
+}
 .footer span{
     font-size: 14.3px;
     font-family: 'Times New Roman', Times, serif;

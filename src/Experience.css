@@ -1,19 +1,18 @@
-.exp{
+/* .exp{
     background-color:rgba(0, 0, 0, 0.861);
-}
+} */
 
 
 .Ebox {
     
     width: 100%;
     max-width: 100%;
-    margin-top: 44px;
+    margin-top: 10px;
     color: whitesmoke;
 
 }
 
 .Ebox h2 {
-    padding-top: 20px;
     margin-left: 20px;
     font-weight: 900;
 }
@@ -112,7 +111,7 @@
 }
 
 
-
+/* 
 @media (max-width: 817px) {
     .Ebox h2{
         margin-top: 76px;
@@ -130,7 +129,7 @@
     .Es1_n_h h2{
         margin-top: 0px;
     }
-}
+} */
 @media(max-width:400px){
     .Es_n_h{
         margin-top:70px;

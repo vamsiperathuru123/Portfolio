@@ -9,8 +9,15 @@ import python from "./images/python.jpeg";
 import SQL from "./images/SQL.png";
 import DS from "./images/DS.jpg";
 import SimpleFooter from './SimpleFooter';
+import Experience from './Experience';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
 export default function Skills() {
+  const [text]=useTypewriter({
+    words:['Skills'],
+    loop:true,
+  });
+
   return (
     <div className='whole_skills'>
         <div className='preload_img'>
@@ -23,9 +30,17 @@ export default function Skills() {
           <img src={DS} alt='DS'/>
         </div>
         <div><Navbar/></div>
-        <div className='box'>
+        <div className='abox'>
+           <h2>
+              {' '}
+              <span style={{ color: "red", fontWeight: "bold", fontFamily: "Times New Roman"   }}>{text}</span>
+              <span style={{ color: "red", fontFamily: "Times New Roman"   }}><Cursor/></span>
+           </h2>
            <div>
             <Tab/>
+           </div>
+           <div>
+            <Experience/>
            </div>
            <div className='s_footer'>
              <SimpleFooter/>

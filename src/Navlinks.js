@@ -44,14 +44,14 @@ export default function Navlinks() {
                 <NavLink className='link' to="/About" activeClassName="active">About {menu === "About" && <hr />}</NavLink>
               </li>
               <li>
-                <NavLink className='link' to="/Skills" activeClassName="active">Skills {menu === "Skills" && <hr />}</NavLink>
+                <NavLink className='link' to="/Skills" activeClassName="active">Skills & Experience {menu === "Skills" && <hr />}</NavLink>
               </li>
               <li>
                 <NavLink className='link' to="/Projects" activeClassName="active">Projects {menu === "Projects" && <hr />}</NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink className='link' to="/Experience" activeClassName="active">Experience {menu === "Experience" && <hr />}</NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink className='link' to="/Contact" activeClassName="active">Contact {menu === "Contact" && <hr />}</NavLink>
               </li>
