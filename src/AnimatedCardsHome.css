@@ -18,7 +18,7 @@ body {
     justify-content: center;
 }
 
-.wrapper {
+.hwrapper {
     width: 100%;
     max-height: 90%;
     display: flex;
@@ -27,16 +27,16 @@ body {
     justify-content: center;
 }
 
-.container {
-    margin-top: 35px;
+.hcontainer {
+    margin-top: 10px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
 }
 
-.card {
+.hcard {
     width: 80px;
-    height: 84vh;
+    height: 90vh;
     border-radius: 0.5rem;
     background-size: cover;
     cursor: pointer;
@@ -50,18 +50,18 @@ body {
     background-color: black;
 }
 
-.card:hover,
+.hcard:hover,
 input:checked + label {
     box-shadow: 0px 10px 30px -5px rgba(255, 0, 0, 0.8);
 }
 
-.card > .row {
+.hcard > .row {
     display: flex;
     flex-wrap: nowrap;
 }
 
 
-.card > .row > .icon {
+.hcard > .row > .icon {
     font-family: 'Times New Roman', Times, serif;
     background: #223;
     color:white;
@@ -73,7 +73,7 @@ input:checked + label {
     margin: 15px;
 }
 
-.card > .row > .description {
+.hcard > .row > .description {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -109,7 +109,7 @@ input {
 }
 
 input:checked + label {
-    width: 700px;
+    width:700px;
 }
 
 input:checked + label .description {
@@ -182,7 +182,7 @@ input:checked + label .row{
         
     }
     
-    .card {
+    .hcard {
         width: 80%;
         max-width: 80%;
         height: 40vh;
@@ -222,7 +222,7 @@ input:checked + label .row{
         
     }
     
-    .card {
+    .hcard {
         width: 75%;
         max-width: 75%;
         height: 33vh;
@@ -261,7 +261,7 @@ input:checked + label .row{
         
         display: none;
     }
-    .card {
+    .hcard {
         width: 80%;
         max-width: 80%;
         border-radius: 0.75rem;

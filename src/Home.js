@@ -21,6 +21,7 @@ import Sahara from './images/Sahara.png';
 import Movie from './images/Movie.png';
 import waves from './images/waves.png';
 import Lora from './images/Lora.png';
+import AnimatedCardsHome from './AnimatedCardsHome';
 
 export default function Home() {
   const [text] = useTypewriter({
@@ -84,6 +85,9 @@ export default function Home() {
                   </div>
         </div> 
             
+      </div>
+      <div>
+        <AnimatedCardsHome/>
       </div>
       <div>
         <SimpleFooter/>
