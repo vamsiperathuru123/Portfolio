@@ -3,9 +3,10 @@ import "./Experience.css";
 import Navbar from './Navbar';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
+
 export default function Experience() {
     const [text]=useTypewriter({
-        words:['Work Experience'],
+        words:['Work Experiences'],
         loop:true,
       });
     const [isHovered, setIsHovered] = useState(false);
