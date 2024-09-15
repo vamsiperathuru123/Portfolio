@@ -87,6 +87,9 @@ export default function Home() {
             
       </div>
       <div>
+        <h1 className='project'>
+          Projects
+        </h1>
         <AnimatedCardsHome/>
       </div>
       <div>

@@ -1,11 +1,11 @@
 import React, { useState, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import './AnimatedCardsHome.css';
-import ScrollButton from './ScrollButton';
 import Sahara from './images/Sahara.png';
 import Movie from './images/Movie.png';
 import waves from './images/waves.png';
 import Lora from './images/Lora.png';
+import { Link } from 'react-router-dom';
 
 function AnimatedCardsHome() {
     const [hselectedCard, hsetSelectedCard] = useState('c1');
@@ -23,7 +23,7 @@ function AnimatedCardsHome() {
         <div className={`hcard-wrapper${hselectedCard === id ? ' selected' : ''}`} key={id}>
             <input type="radio" name="slide" id={id} checked={hselectedCard === id} onChange={handleChange} />
             <label htmlFor={id} className="hcard" style={{ backgroundImage: `url(${image})` }}>
-                <div className="row">
+                <div className="hrow">
                     <div className="icon">{id.slice(1)}</div>
                     <div className="description">
                         {link !== '#' ? (
@@ -34,7 +34,8 @@ function AnimatedCardsHome() {
                             </div>
                         )}
                         <p>{description}</p>
-                        <ScrollButton scrollAmount={500} />
+                        {/* <ScrollButton scrollAmount={500} /> */}
+                        <Link to='/Projects'>More details</Link>
 
                     </div>
                 </div>
