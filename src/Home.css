@@ -14,10 +14,15 @@ body{
     color:red;
 }
 .project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project_h{
   color: red;
   font-weight: 700;
   font-family: 'Times New Roman', Times, serif;
-  margin: 20px;
+  margin-bottom: 30px;
 }
 .preload_img{
     display: none;
@@ -85,6 +90,12 @@ body{
     color: whitesmoke;
     text-align: justify;
     line-height: 1.8;
+}
+.project h4{
+    color: whitesmoke;
+    text-align: justify;
+    line-height: 1.8;
+    margin: 15px;
 }
 .s1_n_h a{
     width: 40%;
@@ -256,7 +267,7 @@ body{
         font-size: 17px;
         margin: 3px;
     }
-    .s1_n_h h4{
+    .s1_n_h h4,.project h4{
         font-size: 13px;
         margin: 7px;
     }

@@ -19,23 +19,23 @@ function AnimatedCardsHome() {
         }
     };
 
-    const renderCard = (id, image, title, description, link) => (
+    const renderCard = (id, image, title, hdescription, link) => (
         <div className={`hcard-wrapper${hselectedCard === id ? ' selected' : ''}`} key={id}>
             <input type="radio" name="slide" id={id} checked={hselectedCard === id} onChange={handleChange} />
             <label htmlFor={id} className="hcard" style={{ backgroundImage: `url(${image})` }}>
                 <div className="hrow">
-                    <div className="icon">{id.slice(1)}</div>
-                    <div className="description">
+                    <div className="hicon">{id.slice(1)}</div>
+                    <div className="hdescription">
                         {link !== '#' ? (
-                           <h4><a href={link} target="_blank" rel="noopener noreferrer">{title}</a></h4>
+                           <h4 className='htitle'><a href={link} target="_blank" rel="noopener noreferrer">{title}</a></h4>
                         ) : (
                             <div>
                                 <h4>{title}</h4>
                             </div>
                         )}
-                        <p>{description}</p>
+                        {/* <p>{hdescription}</p> */}
                         {/* <ScrollButton scrollAmount={500} /> */}
-                        <Link to='/Projects'>More details</Link>
+                        <Link className='hlink' to='/Projects'>More details</Link> 
 
                     </div>
                 </div>
