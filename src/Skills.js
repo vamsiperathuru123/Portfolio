@@ -8,6 +8,7 @@ import css from "./images/css.png";
 import python from "./images/python.jpeg";
 import SQL from "./images/SQL.png";
 import DS from "./images/DS.jpg";
+import flutter from "./images/flutter.png";
 import SimpleFooter from './SimpleFooter';
 import Experience from './Experience';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
@@ -28,6 +29,7 @@ export default function Skills() {
           <img src={python} alt='python'/>
           <img src={SQL} alt='SQL'/>
           <img src={DS} alt='DS'/>
+          <img src={flutter} alt='flutter'/>
         </div>
         <div><Navbar/></div>
         <div className='abox'>
@@ -51,8 +53,6 @@ export default function Skills() {
   )
 }
 
-
-
 const Tab = () =>{
   const [isHovered, setIsHovered] = useState(false);
   const [isHovered1, setIsHovered1] = useState(false);
@@ -61,6 +61,7 @@ const Tab = () =>{
   const [isHovered4, setIsHovered4] = useState(false);
   const [isHovered5, setIsHovered5] = useState(false);
   const [isHovered6, setIsHovered6] = useState(false);
+  const [isHovered7, setIsHovered7] = useState(false);
   return(
     <div>
       <ul className='skill_n'>
@@ -104,6 +105,12 @@ const Tab = () =>{
           <div className='s1_n'>
             <img src={DS} alt='DS'/>
             <h3>DSA</h3>
+          </div>
+        </li> 
+        <li className={`s_n ${isHovered7 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered7(true)} onMouseLeave={() => setIsHovered7(false)}>
+          <div className='s1_n'>
+            <img src={flutter} alt='flutter'/>
+            <h3>Flutter</h3>
           </div>
         </li> 
       </ul>
