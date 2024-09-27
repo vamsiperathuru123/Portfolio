@@ -67,7 +67,7 @@ export default function Home() {
                       Front-end developer with a strong foundation in React JS, JavaScript, HTML, CSS, and Python. Recent Engineering Graduate with experience developing web applications, including e-commerce and movie search platforms. 
                       Seeking a position in a reputable organization where I can leverage my skills in front-end development to contribute to innovative projects and continue to grow my technical abilities.
                     </h4>
-                    <a href="/Perathuru Chandravamsi - U1.pdf" download="Perathuru Chandravamsi - U1.pdf">
+                    <a href="/Perathuru Chandravamsi_Resume.pdf" download="Perathuru Chandravamsi_Resume.pdf">
                        <button>Download Resume</button>
                     </a>
                     <div className="Button__links">
