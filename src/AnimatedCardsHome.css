@@ -1,4 +1,4 @@
-/* CSS File: AnimatedCards.css */
+
 
 * {
     box-sizing: border-box;
@@ -94,7 +94,10 @@ input:checked + .hcard {
     
     
 }
-
+.hlink{
+    margin-left: 12px;
+    margin-top: -10px;
+}
 .hdescription h4 {
     text-transform: uppercase;
     color: red;

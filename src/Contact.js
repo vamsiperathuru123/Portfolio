@@ -56,7 +56,6 @@ export default function Contact() {
                                   <FontAwesomeIcon icon={faXTwitter} size="2x"  />
                               </a>     
                   </div>
-
               </div>
             </div>
           </div>

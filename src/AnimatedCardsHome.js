@@ -5,7 +5,7 @@ import Sahara from './images/Sahara.png';
 import Movie from './images/Movie.png';
 import waves from './images/waves.png';
 import Lora from './images/Lora.png';
-import { Link } from 'react-router-dom';
+
 
 function AnimatedCardsHome() {
     const [hselectedCard, hsetSelectedCard] = useState('c1');
@@ -35,7 +35,7 @@ function AnimatedCardsHome() {
                         )}
                         {/* <p>{hdescription}</p> */}
                         {/* <ScrollButton scrollAmount={500} /> */}
-                        <Link className='hlink' to='/Projects'>More details</Link> 
+                        <a className='hlink' href='/Projects' >More details</a> 
 
                     </div>
                 </div>
