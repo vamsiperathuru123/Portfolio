@@ -26,7 +26,7 @@ import AnimatedCardsHome from './AnimatedCardsHome';
 
 export default function Home() {
   const [text] = useTypewriter({
-    words: ['Perathuru Chandravamsi', 'a Frontend Developer'],
+    words: ['Perathuru Chandravamsi'],
     loop: true,
     
   });
@@ -64,8 +64,11 @@ export default function Home() {
                   <div className='s1_n_h'>
                     <h3>Objective</h3>
                     <h4>
-                      Front-end developer with a strong foundation in React JS, JavaScript, HTML, CSS, and Python. Recent Engineering Graduate with experience developing web applications, including e-commerce and movie search platforms. 
-                      Seeking a position in a reputable organization where I can leverage my skills in front-end development to contribute to innovative projects and continue to grow my technical abilities.
+                    Recent Engineering Graduate with a strong foundation in React JS, JavaScript, HTML, CSS, Python and SQL, coupled
+                    with practical experience in web development and project work. Proven ability to develop and maintain web
+                    applications and platforms, with a focus on innovation and quality. Adept at utilizing APIs and web frameworks to
+                    create dynamic, user-friendly interfaces. Passionate about leveraging technical skills in a collaborative team
+                    environment to contribute to impactful projects and continue professional growth.
                     </h4>
                     <a href="/Perathuru Chandravamsi_Resume.pdf" download="Perathuru Chandravamsi_Resume.pdf">
                        <button>Download Resume</button>
