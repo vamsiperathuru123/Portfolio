@@ -64,13 +64,13 @@ export default function Home() {
                   <div className='s1_n_h'>
                     <h3>Objective</h3>
                     <h4>
-                    Recent Engineering Graduate with a strong foundation in React JS, JavaScript, HTML, CSS, Python and SQL, coupled
+                    Recent Engineering Graduate with a strong foundation in React JS, JavaScript, HTML, CSS, Python, Power BI and SQL, coupled
                     with practical experience in web development and project work. Proven ability to develop and maintain web
                     applications and platforms, with a focus on innovation and quality. Adept at utilizing APIs and web frameworks to
                     create dynamic, user-friendly interfaces. Passionate about leveraging technical skills in a collaborative team
                     environment to contribute to impactful projects and continue professional growth.
                     </h4>
-                    <a href="/Perathuru Chandravamsi_Resume.pdf" download="Perathuru Chandravamsi_Resume.pdf">
+                    <a href="/Perathuru Chandravamsi- U2.pdf" download="Perathuru Chandravamsi - U2.pdf">
                        <button>Download Resume</button>
                     </a>
                     <div className="Button__links">
