@@ -9,6 +9,7 @@ import python from "./images/python.jpeg";
 import SQL from "./images/SQL.png";
 import DS from "./images/DS.jpg";
 // import flutter from "./images/flutter.png";
+import PowerBI_Logo from "./images/PowerBI_Logo.png"
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import SimpleFooter from './SimpleFooter';
 
@@ -33,6 +34,7 @@ export default function About() {
         <img src={SQL} alt='SQL'/>
         <img src={DS} alt='DS'/>
         {/* <img src={flutter} alt='flutter'/> */}
+        <img src={PowerBI_Logo} alt='Power BI'/>
       </div>
       <div>
         <Navbar />
@@ -86,7 +88,7 @@ const Tab1 = () =>{
   return(
     <div className='tab1'>
       <h4>
-        Hi! I'm Perathuru Chandravamsi, Recent Engineering Graduate currently based in Chennai with a strong foundation in React JS, JavaScript, HTML, CSS, SQL, Python and I bring a blend of technical expertise and innovative thinking to the table. 
+        Hi! I'm Perathuru Chandravamsi, Recent Engineering Graduate currently based in Chennai with a strong foundation in React JS, JavaScript, HTML, CSS, SQL, Python, Power BI and I bring a blend of technical expertise and innovative thinking to the table. 
         I recently graduated with a Bachelor's degree in Electrical and Electronics Engineering from the renowned College Of Engineering Guindy, Anna University, with a commendable CGPA of 8.34. My internship experience at Mu Sigma Business Analytics has equipped me with hands-on skills in React JS framework, API integration, and debugging. 
         I'm certified in Python Programming and Programming Data Structures Using Python from Kaggle and NPTEL, respectively. My project portfolio includes exciting ventures like an IoT-based Smart Home automation system, an Affiliate E-Commerce website, and a Movie Search website, showcasing my ability to deliver impactful solutions. Beyond coding, I've led workshops, organized events like WAVES, a national symposium, and volunteered for the National Sports Organization (NSO). 
         Fluent in Telugu, English, Hindi, and Tamil, I'm eager to bring my passion for technology and my knack for problem-solving to your team.
@@ -104,6 +106,7 @@ const Tab2 = () =>{
   const [isHovered5, setIsHovered5] = useState(false);
   const [isHovered6, setIsHovered6] = useState(false);
   // const [isHovered7, setIsHovered7] = useState(false);
+  const [isHovered8, setIsHovered8] = useState(false);
   return(
     <div>
       <ul className='skill'>
@@ -156,6 +159,12 @@ const Tab2 = () =>{
             <h3>Flutter</h3>
           </div>
         </li>  */}
+         <li className={`s ${isHovered8 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered8(true)} onMouseLeave={() => setIsHovered8(false)}>
+          <div className='s1'>
+            <img src={PowerBI_Logo} alt='Power BI'/>
+            <h3>DSA</h3>
+          </div>
+        </li> 
 
       </ul>
     </div>

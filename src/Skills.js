@@ -9,6 +9,7 @@ import python from "./images/python.jpeg";
 import SQL from "./images/SQL.png";
 import DS from "./images/DS.jpg";
 // import flutter from "./images/flutter.png";
+import PowerBI_Logo from "./images/PowerBI_Logo.png"
 import SimpleFooter from './SimpleFooter';
 import Experience from './Experience';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
@@ -30,6 +31,7 @@ export default function Skills() {
           <img src={SQL} alt='SQL'/>
           <img src={DS} alt='DS'/>
           {/* <img src={flutter} alt='flutter'/> */}
+          <img src={PowerBI_Logo} alt='PowerN=BI'/>
         </div>
         <div><Navbar/></div>
         <div className='abox'>
@@ -62,6 +64,8 @@ const Tab = () =>{
   const [isHovered5, setIsHovered5] = useState(false);
   const [isHovered6, setIsHovered6] = useState(false);
   // const [isHovered7, setIsHovered7] = useState(false);
+  const [isHovered8, setIsHovered8] = useState(false);
+
   return(
     <div>
       <ul className='skill_n'>
@@ -113,6 +117,12 @@ const Tab = () =>{
             <h3>Flutter</h3>
           </div>
         </li>  */}
+        <li className={`s_n ${isHovered8 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered8(true)} onMouseLeave={() => setIsHovered8(false)}>
+          <div className='s1_n'>
+            <img src={PowerBI_Logo} alt='PowerBI'/>
+            <h3>Power BI</h3>
+          </div>
+        </li> 
       </ul>
     </div>
 
