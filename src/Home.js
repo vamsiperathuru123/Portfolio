@@ -95,7 +95,7 @@ export default function Home() {
         <h1 className='project_h'>
           Projects
         </h1>
-        <h4>
+        <h4 className='project_desc'>
           Below are some of the key projects I have worked on, showcasing my skills in front-end development, API integration, and IoT solutions.
           Each project highlights my ability to develop practical applications using technologies like React JS, JavaScript, HTML & CSS.
         </h4>
