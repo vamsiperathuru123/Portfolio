@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import "./Experience.css";
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
 
 export default function Experience() {
     const [text]=useTypewriter({
-        words:['Work Experiences'],
+        words:['Work Experience'],
         loop:true,
       });
     const [isHovered, setIsHovered] = useState(false);
   return (
     <div className='exp'>
-        <div>
+        {/* <div>
             <Navbar/>
-        </div>
+        </div> */}
         <div className='Ebox'>
           <h2>
             {' '}

@@ -7,9 +7,9 @@ import javascript from "./images/javascript.webp";
 import css from "./images/css.png";
 import python from "./images/python.jpeg";
 import SQL from "./images/SQL.png";
-import DS from "./images/DS.jpg";
+// import DS from "./images/DS.jpg";
 // import flutter from "./images/flutter.png";
-import PowerBI_Logo from "./images/PowerBI_Logo.png"
+// import PowerBI_Logo from "./images/PowerBI_Logo.png"
 import SimpleFooter from './SimpleFooter';
 import Experience from './Experience';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
@@ -29,9 +29,9 @@ export default function Skills() {
           <img src={css} alt='css'/>
           <img src={python} alt='python'/>
           <img src={SQL} alt='SQL'/>
-          <img src={DS} alt='DS'/>
+          {/* <img src={DS} alt='DS'/> */}
           {/* <img src={flutter} alt='flutter'/> */}
-          <img src={PowerBI_Logo} alt='PowerN=BI'/>
+          {/* <img src={PowerBI_Logo} alt='PowerN=BI'/> */}
         </div>
         <div><Navbar/></div>
         <div className='abox'>
@@ -62,9 +62,9 @@ const Tab = () =>{
   const [isHovered3, setIsHovered3] = useState(false);
   const [isHovered4, setIsHovered4] = useState(false);
   const [isHovered5, setIsHovered5] = useState(false);
-  const [isHovered6, setIsHovered6] = useState(false);
+  // const [isHovered6, setIsHovered6] = useState(false);
   // const [isHovered7, setIsHovered7] = useState(false);
-  const [isHovered8, setIsHovered8] = useState(false);
+  // const [isHovered8, setIsHovered8] = useState(false);
 
   return(
     <div>
@@ -105,24 +105,24 @@ const Tab = () =>{
             <h3>SQL</h3>
           </div>
         </li> 
-        <li className={`s_n ${isHovered6 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered6(true)} onMouseLeave={() => setIsHovered6(false)}>
+        {/* <li className={`s_n ${isHovered6 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered6(true)} onMouseLeave={() => setIsHovered6(false)}>
           <div className='s1_n'>
             <img src={DS} alt='DS'/>
             <h3>DSA</h3>
           </div>
-        </li> 
+        </li>  */}
         {/* <li className={`s_n ${isHovered7 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered7(true)} onMouseLeave={() => setIsHovered7(false)}>
           <div className='s1_n'>
             <img src={flutter} alt='flutter'/>
             <h3>Flutter</h3>
           </div>
         </li>  */}
-        <li className={`s_n ${isHovered8 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered8(true)} onMouseLeave={() => setIsHovered8(false)}>
+        {/* <li className={`s_n ${isHovered8 ? 'highlight' : ''}`} onMouseEnter={() => setIsHovered8(true)} onMouseLeave={() => setIsHovered8(false)}>
           <div className='s1_n'>
             <img src={PowerBI_Logo} alt='PowerBI'/>
             <h3>Power BI</h3>
           </div>
-        </li> 
+        </li>  */}
       </ul>
     </div>
 
