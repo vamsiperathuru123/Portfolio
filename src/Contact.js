@@ -2,13 +2,14 @@ import React from 'react';
 import Navbar from './Navbar';
 import "./Contact.css";
 import "./About.css";
+import "./Home.css";
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import SimpleFooter from './SimpleFooter';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faFacebook,
-  faTwitter,
+  faXTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import emailjs from "@emailjs/browser";
@@ -69,8 +70,8 @@ export default function Contact() {
                 <a className="Facebook" href="https://www.facebook.com/perathuru.vamsi">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
-                <a className="Twitter" href="https://twitter.com/ChandravamsiP">
-                  <FontAwesomeIcon icon={faTwitter} size="2x" />
+                <a className="X" href="https://twitter.com/ChandravamsiP">
+                  <FontAwesomeIcon icon={faXTwitter} size="2x" />
                 </a>
               </div>
             </div>

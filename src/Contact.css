@@ -131,6 +131,11 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .socialmedia {
+    margin-top: 10px;
+  
+  }
+
 }
 @media (max-width: 660px) {
     .contact {
