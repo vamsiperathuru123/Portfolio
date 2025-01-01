@@ -25,7 +25,7 @@ body{
   margin-bottom: 30px;
 }
 .project_desc{
-    padding:0 70px;
+    padding:0 120px;
 }
 .preload_img{
     display: none;
@@ -211,14 +211,13 @@ body{
         overflow: hidden;
         background-color:black;
         color: white;
-        margin: 20px;
+        margin: 20px auto;
         margin-top: 22px;
         border: 1px solid black;
         border-radius:10px;
         transition: box-shadow 0.4s;
         transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
-        
-        
+    
     }
     .s1_n_h a{
         width: 50%;
@@ -232,6 +231,9 @@ body{
         background-color: white;
         border: 2px whitesmoke;
         border-radius: 5px;
+    }
+    .project_desc{
+        padding: 0 50px;
     }
 
 }
@@ -251,7 +253,7 @@ body{
         margin-top: 0px;
     }
     .project_desc{
-        padding: 0 40px;
+        padding: 0 30px;
     }
 }
 

@@ -202,7 +202,7 @@ input:checked + label .row{
         max-height: 60vh;
         max-width: 90%;
         margin: 20px;
-        margin-left: 55px;
+        margin-left: 50px;
         border-radius: 0.75rem;
     }
     input:checked + label .description p{
@@ -240,7 +240,7 @@ input:checked + label .row{
         max-height: 40vh;
         max-width: 80%;
         margin: 20px;
-        margin-left: 55px;
+        margin-left: 50px;
         margin-top: 45px;
     }
 
