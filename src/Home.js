@@ -66,11 +66,10 @@ export default function Home() {
                   <div className='s1_n_h'>
                     <h3>Objective</h3>
                     <h4>
-                    Recent Engineering Graduate with a strong foundation in React JS, JavaScript, HTML, CSS, Python, Power BI and SQL, coupled
-                    with practical experience in web development and project work. Proven ability to develop and maintain web
-                    applications and platforms, with a focus on innovation and quality. Adept at utilizing APIs and web frameworks to
-                    create dynamic, user-friendly interfaces. Passionate about leveraging technical skills in a collaborative team
-                    environment to contribute to impactful projects and continue professional growth.
+                    Recent Engineering Graduate with a strong foundation in React JS, JavaScript, HTML, CSS, Python, and SQL, along
+                    with practical experience in web development and projects. Proven ability to develop and maintain web applications
+                    and platforms, focusing on innovation and quality. Adept at using APIs and web frameworks to create dynamic, userfriendly interfaces. Passionate about leveraging technical skills in a collaborative team environment to contribute to
+                    impactful projects and grow professionally.
                     </h4>
                     <a href="/Perathuru Chandravamsi - U4.pdf" download="Perathuru Chandravamsi - U4.pdf">
                        <button>Download Resume</button>
