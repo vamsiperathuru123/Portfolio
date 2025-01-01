@@ -125,7 +125,7 @@ input:checked + .hcard .hdescription {
     transform: translateY(0) !important;
 }
 input:checked + .hcard .hrow{
-    /* padding-right: 10px; */
+    /* padding-right: 110px; */
     background-color: transparent;
 }
 
@@ -222,7 +222,7 @@ input:checked + .hcard .hrow{
     } */
     
 }
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     .hcontainer {
         display: flex;
         flex-direction: column;
@@ -231,7 +231,7 @@ input:checked + .hcard .hrow{
         
     }
     .hcard > .hrow > .hdescription {
-        width: 215px;
+        width: 320px;
     }
     .htitle{
         font-size:small;
@@ -262,13 +262,13 @@ input:checked + .hcard .hrow{
 
     
 }
-@media(max-width:660px){
+/* @media(max-width:660px){
     .hdescription p{
         width: 60%;
         max-width: 60%;
     }
   
-} 
+}  */
 @media(max-width: 400px) {
     .hcontainer {
         flex-direction: column;
@@ -278,6 +278,9 @@ input:checked + .hcard .hrow{
     .hdescription p{
         
         display: none;
+    }
+    .hcard > .hrow > .hdescription {
+        width: 210px;
     }
     .hcard {
         width: 80%;

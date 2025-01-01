@@ -101,7 +101,7 @@ export default function Home() {
           Below are some of the key projects I have worked on, showcasing my skills in front-end development, API integration, and IoT solutions.
           Each project highlights my ability to develop practical applications using technologies like React JS, JavaScript, HTML & CSS.
         </h4>
-        <div>
+        <div className='anim_cards'>
           <AnimatedCardsHome/>
         </div>
       </div>
