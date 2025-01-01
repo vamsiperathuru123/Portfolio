@@ -38,6 +38,7 @@ body {
     height: 80vh;
     border-radius: 0.5rem;
     background-size: cover;
+    background-repeat: no-repeat;
     cursor: pointer;
     overflow: hidden;
     border-radius: 2rem;
@@ -114,6 +115,8 @@ input {
 
 input:checked + .hcard{
     width:700px;
+    background-size: contain;
+    background-position: center;
 }
 
 input:checked + .hcard .hdescription {

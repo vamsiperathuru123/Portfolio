@@ -72,7 +72,7 @@ export default function Home() {
                     create dynamic, user-friendly interfaces. Passionate about leveraging technical skills in a collaborative team
                     environment to contribute to impactful projects and continue professional growth.
                     </h4>
-                    <a href="/Perathuru Chandravamsi - U3.pdf" download="Perathuru Chandravamsi - U3.pdf">
+                    <a href="/Perathuru Chandravamsi - U4.pdf" download="Perathuru Chandravamsi - U4.pdf">
                        <button>Download Resume</button>
                     </a>
                     <div className="Button__links">

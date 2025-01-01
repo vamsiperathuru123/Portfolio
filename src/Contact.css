@@ -1,11 +1,16 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
 .whole_contact{
     background-color: rgba(0, 0, 0, 0.861);
+    
 }
 .contact{
-    
     width: 90%;
     max-width: 90%;
-  
     margin: 30px;
     margin-left: 57px;
     margin-bottom: 180px;
@@ -15,11 +20,80 @@
     background-color: black;
     box-shadow: 0px 0px 10px 0px rgba(224, 89, 89, 0.75);
     overflow: hidden;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 20px;*/
+} 
+.form_container{
+  width: 55%;
+  background-color: rgba(58, 56, 56, 0.445);
+  border-radius:10px;
+  margin: 20px;
+  box-shadow: 0 0 15px 10px rgb(65, 64, 64);
+  transition: transform 0.3s ease-in-out,box-shawdow 0.3s ease-in-out;
 }
-
+.form_container:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px 5px red;
+ 
+}
+.forms{
+  width: 85%;
+  margin: 20px auto;
+}
+.form_com{
+  display: flex;
+  flex-direction: column;
+}
+.form_com label{
+  font-weight: bold;
+  margin: 5px;
+}
+.form_com input{
+  width: 95%;
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+}
+.form_com textarea{
+  width: 95%;
+  display: block;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 0.2rem;
+}
+.form_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_btn button{
+  margin: 20px;
+  width: 40%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  background-color: red;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: relative;
+}
+.form_btn button:hover{
+  color: white;
+  background-color: black;
+}
 .Address h3{
-  
   margin: 30px 50px;
   color: red;
   font-size: x-large;
@@ -47,9 +121,16 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 30px 50px;
-    
-    
-
+}
+@media(max-width : 1100px){
+  .form_container{
+    width: 90%;
+    margin: 20px auto;
+  }
+  .details{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 660px) {
     .contact {
@@ -58,7 +139,6 @@
         margin: 30px 10px;  
         margin-bottom: 80px;      
     }
-
 }
 
 @media(max-width :400px){
