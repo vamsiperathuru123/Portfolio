@@ -125,7 +125,7 @@ input:checked + .hcard .hdescription {
     transform: translateY(0) !important;
 }
 input:checked + .hcard .hrow{
-    padding-right: 110px;
+    /* padding-right: 10px; */
     background-color: transparent;
 }
 

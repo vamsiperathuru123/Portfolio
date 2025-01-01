@@ -254,6 +254,9 @@ body{
     .text_home{
         margin-top: 0px;
     }
+    .project_desc{
+        padding: 0 40px;
+    }
 }
 
 
@@ -276,6 +279,9 @@ body{
     }
     .textbox1{
         margin-bottom: 65px;
+    }
+    .project_desc{
+        padding: 0 20px;
     }
 
     .text_home{

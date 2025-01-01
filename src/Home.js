@@ -104,13 +104,10 @@ export default function Home() {
         <div>
           <AnimatedCardsHome/>
         </div>
-        
       </div>
       <div>
         <SimpleFooter/>
-      </div>
-
-      
+      </div>      
     </div>
   );
 }
