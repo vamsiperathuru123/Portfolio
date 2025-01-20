@@ -39,7 +39,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .text_home{
     width: 40%;
@@ -59,11 +59,11 @@ body{
 
 .s_n_h{
     background-color:black;
-    width: 650px;
-    max-width: 100%;
+    width: 55%;
+    max-width: 57%;
     overflow: hidden;
     color: white;
-    margin: 20px;
+    margin: 20px auto;
     border: 1px solid black;
     border-radius:10px;
     transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
