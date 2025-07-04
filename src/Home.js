@@ -71,7 +71,7 @@ export default function Home() {
                     and platforms, focusing on innovation and quality. Adept at using APIs and web frameworks to create dynamic, userfriendly interfaces. Passionate about leveraging technical skills in a collaborative team environment to contribute to
                     impactful projects and grow professionally.
                     </h4>
-                    <a href="/Perathuru Chandravamsi - U4.pdf" download="Perathuru Chandravamsi - U4.pdf">
+                    <a href="/Perathuru Chandravamsi - C2.pdf" download="Perathuru Chandravamsi - C2.pdf">
                        <button>Download Resume</button>
                     </a>
                     <div className="Button__links">
